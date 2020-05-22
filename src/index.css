@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label{
+  margin-right: 15px;
+}
+
+.cell-live{
+  background-color: black;
+  border: 1px solid grey;
+}
+
+.cell-death{
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.area{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.controllers{
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+
+}
+
+.buttons{
+  margin-top: 25px;
+}
+
+.btn{
+  margin: 10px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btn-success{
+  background-color: green;
+}
+
+.btn-danger{
+  background-color: red;
+}
+
+.btn-primary{
+  background-color: blue;
+}
+
+.btn-warning{
+  background-color: darkorange;
+}
+
+.btn-accent{
+  background-color: indigo;
+}
+
+.btn:disabled{
+  background-color: #ccc;
+  border-color:#ccc;
+  cursor: not-allowed;
+}
+
